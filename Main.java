@@ -14,7 +14,7 @@ import java.time.Duration;
 public class Main {
     public static void main(String[] args) {
         //firstTest();
-        secondTest();
+        secondTest();//second test is the active test
     }
     //Negative test case (wrong email and wrong password are entered)
     public static void firstTest() {
