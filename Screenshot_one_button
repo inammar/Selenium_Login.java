@@ -1,0 +1,10 @@
+public class Main {
+public static void main (String[] args) throws IOException {
+    firstTest();
+}
+public static void firstTest() throws IOException {
+
+        WebElement buttonLogin = driver.findElement(By.cssSelector("input.users-session-form__submit"));
+        File scrFile = buttonLogin.getScreenshotAs(OutputType.FILE);
+        FileHandler.copy(scrFile, new File("./image.png"));
+    }
